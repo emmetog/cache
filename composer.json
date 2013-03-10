@@ -1,0 +1,16 @@
+{
+    "name": "emmetog/cache",
+    "description": "Classes that act as caches",
+    "license": "GPL-3.0",
+    "keywords": [ "cache" ],
+    "authors": [
+        {
+            "name": "Emmet O'Grady",
+            "email": "emmet789@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": { "Emmetog\\Cache\\": "src" }
+    },
+}
