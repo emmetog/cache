@@ -9,7 +9,7 @@
             "email": "emmet789@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "Emmetog\\Cache\\": "src" }
     }
