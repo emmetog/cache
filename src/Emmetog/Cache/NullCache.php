@@ -20,7 +20,7 @@ class NullCache implements CacheInterface
 
     public function get($key)
     {
-        return false;
+        return null;
     }
 
     public function exists($key)
@@ -30,7 +30,7 @@ class NullCache implements CacheInterface
 
     public function delete($key)
     {
-        return true;
+        return null;
     }
 
     public function flush()
