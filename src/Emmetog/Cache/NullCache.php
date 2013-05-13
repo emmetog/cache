@@ -5,10 +5,10 @@ namespace Emmetog\Cache;
 use Emmetog\Cache\CacheInterface;
 
 /**
- * This cache class does not cache anything, but it can be used anywhere a real cache can.
+ * This cache class does not actaully cache anything, but it can be used
+ * anywhere a real cache can.
  *
  * @author Emmet O'Grady <emmet789@gmail.com>
- * @package 
  */
 class NullCache implements CacheInterface
 {

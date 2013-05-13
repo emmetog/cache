@@ -1,15 +1,15 @@
 {
     "name": "emmetog/cache",
-    "description": "Classes that act as caches",
+    "description": "A collection of PHP classes which act as caches",
     "license": "GPL-3.0",
-    "keywords": [ "cache" ],
+    "keywords": [ "cache", "memecached", "registry" ],
     "authors": [
         {
             "name": "Emmet O'Grady",
             "email": "emmet789@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-0": { "Emmetog\\Cache\\": "src" }
     }
